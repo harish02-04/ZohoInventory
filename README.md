@@ -1,18 +1,39 @@
-## Getting Started
+# Zoho Inventory
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a Java console application designed to manage inventory using Object-Oriented Programming (OOP) principles and Java Collections. The application maintains a list of items in inventory by processing both purchase and sales orders.
 
-## Folder Structure
+## Features
 
-The workspace contains two folders by default, where:
+- **Inventory Management**: Add, update, and delete items in the inventory.
+- **Purchase Orders**: Add items to inventory through purchase orders.
+- **Sales Orders**: Reduce items from inventory through sales orders.
+- **OOP Principles**: Uses classes, objects, inheritance, polymorphism, and encapsulation.
+- **Collections**: Utilizes Java Collections (List, Map, etc.) for storing and managing inventory data.
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+## Usage
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+1. **Adding Items to Inventory**:
+   - The application allows you to add new items with properties like name, SKU, quantity, and price.
 
-## Dependency Management
+2. **Processing Purchase Orders**:
+   - Process purchase orders to increase the stock of items in inventory.
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+3. **Processing Sales Orders**:
+   - Process sales orders to decrease the stock of items in inventory.
+
+4. **Viewing Inventory**:
+   - View the list of all items in inventory with their current stock levels.
+
+## Example
+
+```plaintext
+Welcome to Zoho Inventory Management System!
+
+1. Add Item
+2. Process Purchase Order
+3. Process Sales Order
+4. View Inventory
+5. Exit
+
+
