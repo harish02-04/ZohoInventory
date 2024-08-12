@@ -1,4 +1,4 @@
-# Zoho Inventory
+# 🧾Zoho Inventory 
 
 This is a Java console application designed to manage inventory using Object-Oriented Programming (OOP) principles and Java Collections. The application maintains a list of items in inventory by processing both purchase and sales orders.
 
