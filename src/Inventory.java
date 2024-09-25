@@ -1,5 +1,6 @@
 import java.util.*;
 public class Inventory {
+    int main;
     ArrayList<Product> pro;
     ArrayList<Order> orders;
     Inventory(){
